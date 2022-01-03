@@ -10,9 +10,11 @@ public class DeleteAtPosition implements IDeleteAtPosition {
         LinkList.Node currNode = list.head;
         LinkList.Node prevNode;
         int count = 1;
+        // To delete the head node
         if(count == position){
             list.head = currNode.next;
         }
+        // To delete any node other than head node based on its position
         while(currNode.next != null){
             count++;
             prevNode = currNode;
@@ -23,6 +25,8 @@ public class DeleteAtPosition implements IDeleteAtPosition {
             }
 
         }
+
+        //If position is out of range of the linklist provided
         System.out.println(count);
         if(count<position){
             System.out.println("Position Element not found");

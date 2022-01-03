@@ -11,6 +11,8 @@ public class DisplayLinkList implements IDisplayLinkList {
             System.out.println(startNode.data);
             startNode = startNode.next;
         }
+
+        //To display the value of the last node
         System.out.println(startNode.data);
     }
 }
