@@ -1,6 +1,7 @@
 package circularlinkedlist;
 
 import circularlinkedlist.AbstractFactory.AbstractCircularFactory;
+import circularlinkedlist.Interfaces.IDeleteNode;
 import circularlinkedlist.Interfaces.IDisplayCircular;
 import circularlinkedlist.Interfaces.IInsertNode;
 
@@ -28,6 +29,7 @@ public class CircularLinkedList {
         AbstractCircularFactory factory = AbstractCircularFactory.instance();
         IInsertNode insert = factory.createInsertNode();
         IDisplayCircular display = factory.createDisplayCircular();
+        IDeleteNode delete = factory.createDeleteNode();
         Scanner scn = new Scanner(System.in);
         char check = 'y';
         do{
@@ -39,6 +41,11 @@ public class CircularLinkedList {
             check = scn.next().charAt(0);
 
         }while(check == 'y');
+        System.out.println("Circular LinkList:");
+        display.displayCircular(list);
+        System.out.println("Do you want to delete any value: ");
+        int item = scn.nextInt();
+        list = delete.deleteNode(list,item);
         System.out.println("Circular LinkList:");
         display.displayCircular(list);
 
