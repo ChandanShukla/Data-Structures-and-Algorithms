@@ -1,0 +1,12 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ϋ²τω
+N	java:S106"9Replace this use of System.out or System.err by a logger.(αέΰ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±ύ
+O
+java:S1854"9Remove this useless assignment to local variable "check".(ς
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•ϊφ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(έληπ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Χ¤Ω–
+N	java:S106("9Replace this use of System.out or System.err by a logger.(Χ¤Ω–
+Y
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ΝΑόΩψÿÿÿÿ

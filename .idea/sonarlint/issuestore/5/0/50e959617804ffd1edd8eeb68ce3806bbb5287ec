@@ -1,0 +1,9 @@
+
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(©À“é
+N	java:S106""9Replace this use of System.out or System.err by a logger.(»•Ğ²
+O
+java:S1854)"9Remove this useless assignment to local variable "check".(ò˜Ÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ÀÜãÆ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ÎäÜÖùÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(üÌ·ùÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(üÌ·ùÿÿÿÿ

@@ -1,0 +1,17 @@
+
+6
+java:S3010" Remove this assignment of "top".(ç›©ş
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†ÕŠõ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ş˜Ø¼şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²‹æ‹øÿÿÿÿ
+O
+java:S1854$"9Remove this useless assignment to local variable "check".(ò˜Ÿ
+T
+java:S1854,"9Remove this useless assignment to local variable "check".(„Ñ¼üÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(¬··Å
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(‹Ê‘×
+N	java:S106."9Replace this use of System.out or System.err by a logger.(Éßªå
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(„ùâ¢øÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(åîçş
+t
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "x".(õ°…¨ıÿÿÿÿ
